@@ -23,8 +23,11 @@ end
 # using director_data as input
 def gross_for_director(director_data)
   
-  pp director_data.length
-  
+  i = 0
+  while i < director_data.length do 
+    pp director_data[i]
+    i += 1
+  end
   
   
   
