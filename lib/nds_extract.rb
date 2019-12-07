@@ -10,13 +10,14 @@ def directors_totals(nds)
   idx = 0
   name = nds[0][:name]
   total = gross_for_director(nds[0])
- # pp total
+  pp total
   #while idx < nds.length do
    # name = nds[idx][:name]
     #total = gross_for_director(nds[idx])
-   pp result [name] = total
+   result [name] = total
     #idx += 1
   #end
+  pp result
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
