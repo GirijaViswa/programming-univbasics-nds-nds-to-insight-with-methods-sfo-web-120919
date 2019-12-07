@@ -22,10 +22,10 @@ end
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 def gross_for_director(director_data)
-  pp director_data[:movies]
+ # pp director_data[:movies]
   i = 0
   while i < director_data[:movies].length do 
-    pp director_data[i]
+    pp director_data[:movies][i]
     i += 1
   end
   
