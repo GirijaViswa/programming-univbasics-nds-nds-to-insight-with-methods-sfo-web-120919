@@ -8,15 +8,12 @@ require 'directors_database'
 def directors_totals(nds)
   result = {}
   idx = 0
-  name = nds[0][:name]
-  total = gross_for_director(nds[0])
-  pp total
-  #while idx < nds.length do
-   # name = nds[idx][:name]
-    #total = gross_for_director(nds[idx])
+  while idx < nds.length do
+    name = nds[idx][:name]
+    total = gross_for_director(nds[idx])
    result [name] = total
-    #idx += 1
-  #end
+    idx += 1
+  end
   pp result
 end
 
