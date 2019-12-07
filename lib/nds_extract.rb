@@ -10,7 +10,7 @@ def directors_totals(nds)
   idx = 0
   while idx < nds.length do
     name = nds[:name]
-    puts name 
+    pp name
     idx += 1
   end
 end
