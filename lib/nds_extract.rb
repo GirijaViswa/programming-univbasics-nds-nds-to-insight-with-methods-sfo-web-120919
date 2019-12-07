@@ -14,7 +14,7 @@ def directors_totals(nds)
   #while idx < nds.length do
    # name = nds[idx][:name]
     #total = gross_for_director(nds[idx])
-    #result [name] = total
+    result [name] = total
     #idx += 1
   #end
 end
@@ -28,5 +28,5 @@ def gross_for_director(director_data)
     total += director_data[:movies][i][:worldwide_gross]
     i += 1
   end
-  pp total
+   total
 end
