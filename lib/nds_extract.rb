@@ -7,7 +7,12 @@ require 'directors_database'
 
 def directors_totals(nds)
   result = {}
-  pp nds
+  idx = 0
+  while idx < nds.length do
+    name = nds[:name]
+    puts name 
+    idx += 1
+  end
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
