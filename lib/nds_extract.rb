@@ -14,7 +14,7 @@ def directors_totals(nds)
   #while idx < nds.length do
    # name = nds[idx][:name]
     #total = gross_for_director(nds[idx])
-    result [name] = total
+   pp result [name] = total
     #idx += 1
   #end
 end
